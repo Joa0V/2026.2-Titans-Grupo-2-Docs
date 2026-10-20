@@ -1,0 +1,39 @@
+site_name: Titans Grupo 2
+site_description: Documentação do grupo 2 do projeto Trainee Titans 2026.2
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+
+nav:
+  - Início: index.md
+
+  - Organização e Projeto:
+      - Estrutura Analítica do Projeto: organizacao/eap.md
+      - Requisitos: organizacao/requisitos.md
+      - Cronograma: organizacao/cronograma.md
+      - Mapeamento de Riscos: organizacao/riscos.md
+      - Guia de Contribuição: organizacao/contribuicao.md
+
+  - Estrutura:
+      - Projeto Conceitual: estrutura/conceitual.md
+      - Modelagem: estrutura/modelagem.md
+      - Materiais: estrutura/materiais.md
+      - Fabricação e Montagem: estrutura/fabricacao_montagem.md
+      - Testes de Estrutura: estrutura/testes_estrutura.md 
+
+  - Eletrônica:
+      - Componentes: eletronica/componentes.md
+      - Esquemáticos: eletronica/esquematicos.md
+      - Dimensionamento Energético: eletronica/dimensionamento.md
+      - Montagem: eletronica/montagem.md
+      - Testes de Eletrônica: eletronica/testes_eletronica.md
+
+  - Software:
+      - Arquitetura: software/arquitetura.md
+      - Tecnologias: software/tecnologias.md
+      - Testes de Software: software/testes_software.md
+
+  - Integração:
+      - Testes de Integração: integracao/testes_integracao.md
